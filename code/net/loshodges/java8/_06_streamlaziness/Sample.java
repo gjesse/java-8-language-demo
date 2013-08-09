@@ -30,7 +30,6 @@ public class Sample {
             ;
       System.out.println( firstEvenGtThree );
 
-      // demo Optionals providing defaults?
   }
 }
 

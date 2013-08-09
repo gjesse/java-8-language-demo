@@ -11,9 +11,9 @@ public class Sample {
     for(int number : numbers) {
       totalOfValuesDoubled += number * 2;
     }
-    /*
-    System.out.println(totalOfValuesDoubled);
 
+    System.out.println(totalOfValuesDoubled);
+/*
     System.out.println(numbers.stream()
             .mapToInt(number -> number * 2)
             .sum());*/
