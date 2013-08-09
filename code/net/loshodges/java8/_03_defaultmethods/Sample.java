@@ -1,4 +1,4 @@
-package net.loshodges.java8.defaultmethods;
+package net.loshodges.java8._03_defaultmethods;
 
 public class Sample {
   public static void main(String[] args) {

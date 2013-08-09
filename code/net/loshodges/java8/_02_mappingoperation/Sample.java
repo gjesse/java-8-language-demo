@@ -11,13 +11,14 @@ public class Sample {
     for(int number : numbers) {
       totalOfValuesDoubled += number * 2;
     }
-    
+    /*
     System.out.println(totalOfValuesDoubled);
 
-    final int sum = numbers.stream()
-            .map(number -> number * 2)
-            .sum();
+    System.out.println(numbers.stream()
+            .mapToInt(number -> number * 2)
+            .sum());*/
+    // Stream operations are divided into two categories: intermediate and terminal.
+    // After a terminal operation is performed, the stream can no longer be used.
 
-      System.out.println(sum);
   }
 }

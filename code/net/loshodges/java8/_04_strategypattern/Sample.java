@@ -40,7 +40,7 @@ public class Sample {
     System.out.println(
       assets.stream()
       .filter(selector)
-      .map(asset -> asset.value)
+      .mapToInt(asset -> asset.value)
       .sum());
   }
   

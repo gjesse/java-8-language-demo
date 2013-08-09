@@ -22,9 +22,9 @@ public class Sample {
     
     System.out.println(
       numbers.stream()
-      .filter(net.loshodges.java8.externaltointernal.Sample::isGreaterThan2)
-      .filter(net.loshodges.java8.externaltointernal.Sample::isEven)
-      .map(net.loshodges.java8.externaltointernal.Sample::doubleIt)
+      .filter(Sample::isGreaterThan2)
+      .filter(Sample::isEven)
+      .mapToInt(Sample::doubleIt)
       .findFirst()
       .getAsInt()
     );

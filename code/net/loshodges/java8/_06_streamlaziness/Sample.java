@@ -22,14 +22,15 @@ public class Sample {
     List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6);
     
     //double the first even number greater than 3 from the list
-    int firstEvenGtThree =       numbers.stream()
+    Integer firstEvenGtThree =       numbers.stream()
             .filter(Sample::isGreaterThan2)
             .filter(Sample::isEven)
-            .map(Sample::doubleIt)
-            .findFirst().;
+            .mapToInt(Sample::doubleIt)
+            .findFirst().getAsInt();
+            ;
       System.out.println( firstEvenGtThree );
 
-      // providing defaults?
+      // demo Optionals providing defaults?
   }
 }
 
