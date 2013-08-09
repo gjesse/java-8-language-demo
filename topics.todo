@@ -1,0 +1,19 @@
+Java 8 Language Capabilities: What's in it for you?
+Venkat Subramaniam
+http://www.agiledeveloper.com/downloads.html
+venkats@agiledeveloper.com
+Twitter: @venkat_s
+
+- The next big thing in Java
+- What's Lambda expressions?
+- Refactoring from external to internal iterator
+- Fundamental shift: from imperative to functional style
+- Mapping operation - eliminating mutability
+- How do lambda expressions look under the covers
+- How are these new methods available on existing interfaces?
+- Default methods
+- Implementing Strategy pattern
+- Composing with lambda expressions
+- Laziness of Streams
+- Parallel libraries
+- Summary
