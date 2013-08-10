@@ -29,15 +29,15 @@ public class Sample {
     );
 
       // demo Optionals providing defaults?
- /*    numbers = Arrays.asList(1, 2, 3, 5,9);
+     numbers = Arrays.asList(1, 2, 3, 5,9);
       System.out.println(
               numbers.stream()
                       .filter(Sample::isGreaterThan2)
                       .filter(Sample::isEven)
                       .mapToInt(Sample::doubleIt)
-                      .findFirst().orElse(0)
+                      .findFirst().orElse(-1)
       );
-*/
+
   }
 }
 
