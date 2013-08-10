@@ -27,7 +27,7 @@ for i in elements:
 internal example: not so much (unless you write a lot of ruby)
 
 ```ruby
-beatles = ['George', John', 'Paul', 'Ringo']
+beatles = ['George', 'John', 'Paul', 'Ringo']
 beatles.each { |beatle| puts beatle }
 ```
 
@@ -65,6 +65,17 @@ Higher order functions and functional interfaces `@functional`
 - `Predicate`: returns `Boolean` (filter)
 - `Function`: returns `Object` (map)
 
+## composing with lambdas
+
+simple example of composition
+
+## stream laziness
+
+demo lazy stream evaluation
+
+## parallel libraries
+
+demo of how to use parallel streams 
 
 ## other resources
 
