@@ -61,9 +61,9 @@ Demo how using lambda expressions can simplify code using the asset totaling exa
 
 Higher order functions and functional interfaces `@functional`
 
-Consumer: returns void, produces side effects
-Predicate: returns Boolean (filter)
-Function: returns Object (map)
+- `Consumer`: returns `void`, produces side effects
+- `Predicate`: returns `Boolean` (filter)
+- `Function`: returns `Object` (map)
 
 
 ## other resources
