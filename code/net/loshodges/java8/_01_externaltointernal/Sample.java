@@ -9,11 +9,12 @@ public class Sample {
 
 
 
-/*    // self inflicted wound pattern
+    // self inflicted wound pattern
     for(int i = 0; i < numbers.size(); i++) {
       System.out.println(i);
 
-    }*/
+    }
+
     /*
     // better, but still flawed - external iterator
     for(int e : numbers) {
@@ -37,7 +38,7 @@ public class Sample {
 
 
     // Leave off the type declaration??? is this java?
-    numbers.forEach(number -> System.out.println(number));
+   // numbers.forEach(number -> System.out.println(number));
 
 
 /*
